@@ -23,8 +23,7 @@ public Accounts(String username, String password) {
 	this.username = username;
 	this.password = password;
 	Random rand = new Random();
-	//Generates a random number between 1 and 999999999 
-	accountNum = rand.nextInt(100000000);
+	//Generates a random number between 1 and 9999999999
 }
 //Overriding
 public String toString() {
